@@ -23,7 +23,6 @@ For Each ws In Worksheets
       ws.Range("J" & j).Value = total + Range("G" & i).Value
       
       j = j + 1
-      total = 0
       
     End If
     
